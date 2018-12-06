@@ -22,4 +22,6 @@ To start using AIslandBase, call the
 `Init.getInit(String title, String version, int length, int width, Image icon);`
 
 function with the window title, the (optional) program version, the dimensions of the Grid, and an optional program icon.
-This returns a Canvas object. To add a sprite to the canvas, create an AbstractSprite and use the `addSprite()` method. To add a JSprite, use the `addJSprite()` method.
+This returns an instance of Canvas. 
+
+To add a sprite to the canvas, create an AbstractSprite and use the `addSprite()` method. To add a JSprite, use the `addJSprite()` method.
