@@ -19,9 +19,9 @@ JSprites are similar to Sprites, however JSprites hold Swing JComponents rather 
 
 To start using AIslandBase, call the
 
-`Init.getInit(String title, String version, int length, int width, Image icon);`
+`Init.getInit(String title, String version, Image icon, int length, int width);`
 
-function with the window title, the (optional) program version, the dimensions of the Grid, and an optional program icon.
+function with the window title, the optional program version, an optional program icon, and the dimensions of the Grid.
 This returns an instance of Canvas. 
 
 To add a sprite to the canvas, create an AbstractSprite and use the `addSprite()` method. To add a JSprite, use the `addJSprite()` method.
