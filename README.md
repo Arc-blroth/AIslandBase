@@ -6,8 +6,10 @@ Currently in Alpha, so expect lots of bugs and glitchy repainting.
 
 ## Background
 
-Similarly to how Swing uses a JPanel to hold Components, AIslandBase uses a Canvas to hold Sprites. 
+Similarly to how Swing uses a JPanel to hold Components, AIslandBase uses a Canvas to hold Sprites.
+
 Sprites are the guts of sprite-based programming. A Sprite is an image that can be moved, turned, or otherwise transformed. 
+
 Each Canvas is backed by a Grid object. All Sprites are held to a coordinate on the Grid. 
 As the Canvas is resized, all sprites are repositioned according to their grid coordinates.
 
