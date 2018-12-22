@@ -1,6 +1,6 @@
 # AIslandBase
 
-A codebase for sprite-based programming, built on Swing from Java.
+A codebase for sprite-based programming, built on Swing from Java. Based on the [Scratch](https://github.com/LLK/) programming language.
 
 Currently in Alpha, so expect lots of bugs and glitchy repainting.
 
